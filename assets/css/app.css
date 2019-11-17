@@ -1,6 +1,6 @@
 /* This file is for your main application css. */
 
-@import "~milligram/dist/milligram";
+@import "~milligram/dist/milligram.css";
 
 .column > p {
     padding-top: 10ex;
