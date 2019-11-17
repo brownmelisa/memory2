@@ -1,0 +1,16 @@
+<script>
+function join_onclick() {
+  let input = document.getElementById("game_name").value;
+  window.location.assign("/game/" + input);
+}
+</script>
+
+<div class="row">
+  <div class="column">
+    <h1 id="index-page">Join a Game</h1>
+    <p>
+      <input id="game_name" type="text" placeholder="enter game name">
+    </p>
+    <p><button onclick="join_onclick()" id="join">Join</button></p>
+  </div>
+</div>
